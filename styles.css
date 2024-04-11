@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Urania-Regular';
+    src: url('./assets/Urania-Regular.otf') format('truetype'); 
+}
+body ,html{
+    position: relative;
+    margin:0;
+    height:100%;
+    font-family: Urania-regular;
+}
+
+.repo-main{
+    display: flex;
+    width:100%;
+    height:500px;
+    
+}
+.repo-main img{
+    width:300px;
+   padding-top:180px;
+  margin-left:100px;
+}
+.repo-text{
+    padding-left: 150px;
+    padding-top:180px;
+    width:50%;
+    
+}
+.repo-img{
+   
+    width:50%;
+   
+}
+.repo-text-head{
+    font-size:50px;
+}
+.repo-text-side{
+    font-size: 30px;
+}
+.repo-footer{
+    display:flex;
+    justify-content: space-between;
+    height:260px;
+}
+.leftside{
+    width:50%;
+    padding-left: 150px;
+}
+.rightside{
+    width:50%;
+}
+.stat {
+    display: inline-flex; 
+    align-items: center; 
+    margin-right: 20px;
+}
+
+.stat-icon {
+    margin-right: 10px; 
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #777;
+}
+.color-picker{
+    background-color: #e44c27;
+   color:#e44c27;
+   width:auto;
+}
+.git-logo{
+    width:30px;
+    padding-left: 240px;
+}
+@media screen and (max-width:1080px){
+.repo-text{
+    padding-left:10px;
+}
+.repo-main img{
+   padding-right: 10px;
+   padding-top:200px;
+    width:80px;
+   
+}
+.repo-text-head{
+    font-size:20px;
+}
+.repo-text-side{
+    font-size: 20px;
+}
+.git-logo{
+    padding-left:100px;
+}
+.leftside{
+    padding-left: 10px;
+}
+.repo-img{
+   width:50%;
+   
+}
+}
